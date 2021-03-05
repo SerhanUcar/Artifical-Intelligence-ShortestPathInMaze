@@ -1,11 +1,6 @@
 import tkinter as tk
 from time import time
-#Esto debería de ser una clase, pero inviable porque no se como hacerlo, me pone muchos problemas para crear la ventana y demás
-'''
-    @window = this variable represent the window where we are going to draw the maze
-    @canvas = help us to draw our maze
-    @maze = it is a "matriz" that represents the maze *****hay que cambiarlo para que se lea desde un archivo y distinga el laberinto que se pide en el ejercicio***
-'''
+
 window=tk.Tk()
 window.title("DFS Algorithm")
 draw=tk.Canvas(width=400, height=800, background="white")
@@ -70,7 +65,6 @@ def arrivedBeggining(x,y):
     return beggining
 
 
-###################################################### RESOLUCIÓN DEL ALGORITMO ######################################################
 # This function is used to find wich neightbours can be visited and that ones that can be visited are saved in an @neightbours
 '''
     @neightbours[] =  array that saves wich places can be visited and wich one can not, the last position is the @cont 
