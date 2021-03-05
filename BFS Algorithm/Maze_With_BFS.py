@@ -1,7 +1,7 @@
 import tkinter as tk
 from time import time
 
-############################### Hasan Serhan Uçar and Berhan Kurt ########################################
+############################### Hasan Serhan Uçar ########################################
 
 '''
     @screen = this variable represent the screen where we are going to draw the maze
